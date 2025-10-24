@@ -1,16 +1,27 @@
-# React + Vite
+# HERO IO #
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+HERO IO is a modern web application built with React that allows users to explore, search, and discover top-rated and trending apps. The app features dynamic sections such as *Top Apps* or *Trending Apps*, and *Trusted by Millions*, offering a smooth, responsive, and engaging user experience.  
 
-Currently, two official plugins are available:
+Key features include:  
+- Search functionality to quickly find apps  
+- App cards showing downloads, ratings, and app icons  
+- Detailed app information pages   
+- Responsive design for desktop and mobile  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **React** – Frontend framework for building UI  
+- **React Router** – For seamless client-side routing  
+- **Tailwind CSS** – For modern, responsive styling  
+- **Framer Motion** – Smooth animations for interactive components  
+- **Lucide Icons** – Clean and consistent icons  
+- **JSON Data** – Mock data for app listings  
+- **Public Assets Folder** – For images, icons, and static files  
 
-## React Compiler
+---
+# Install dependencies
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Run the development server
+npm run dev
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
